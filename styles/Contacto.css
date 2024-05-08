@@ -1,0 +1,112 @@
+/* *Sección Contacto */
+
+section.formcontato {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    flex-direction: column;
+    /* Cambia la disposición a columna */
+    width: 100%;
+    /* Ocupa todo el ancho disponible del viewport */
+    background: var(--cor-de-second-section);
+}
+
+.formcontato__contacto {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio entre la imagen y el texto */
+    align-items: center;
+    /* Centra verticalmente */
+    width: 100%;
+    /* Ancho máximo permitido */
+    max-width: 87%;
+    height: 660px;
+}
+
+.formcontato--box {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 660px;
+}
+
+.formcontato__img {
+    width: 464px;
+    height: 593px;
+    margin-right: 24px;
+}
+
+.formcontato__text {
+    flex: 1;
+    /* El contenido ocupará el espacio restante */
+    text-align: left;
+    margin-left: 20px;
+    width: 660px;
+    height: 559px;
+    /* Cambia la altura a automática para que se ajuste al contenido */
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna para apilar los elementos */
+    justify-content: center;
+    /* Centra verticalmente el contenido */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    padding: 0 20px 20px 0;
+    /* Añade espacio interno */
+}
+
+.formcontato__title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px, 0;
+    margin-top: 20 px;
+}
+
+.formcontato__subtext1{
+    font-size: 16px;
+    margin: 15px 0 ; 
+}
+
+.formcontato__subtext2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna para apilar los elementos */
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 656px;
+    height: 56px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.formcontato__textarea {
+    height: 133px;
+}
+
+.formcontato__botao {
+    width: 160px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: normal;
+    background: var(--cor-de-booton);
+    color: var(--cor-de-second-texto);
+    border: none;
+    cursor: pointer;
+}
+
+.formcontato__input::placeholder,
+.formcontato__textarea::placeholder {
+    padding-left: 10px;
+    /* Agrega padding izquierdo al placeholder */
+}

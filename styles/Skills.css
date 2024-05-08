@@ -1,0 +1,81 @@
+/* *Sección Skills */
+.skills {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente en el viewport */
+    align-items: center;
+    /* Centra verticalmente en el viewport */
+    width: 100%;
+    /* Ocupa todo el ancho disponible del viewport */
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna */
+    justify-content: center;
+    /* Centra verticalmente en el viewport */
+    align-items: center;
+    /* Centra horizontalmente */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    max-width: 88%;
+    /* Ancho máximo permitido */
+    height: 244px;
+    /* Usar altura completa del viewport */
+    margin-top: 10px;
+}
+
+.skills__title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    /* Espaciado inferior */
+    margin-top: 5px;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye los elementos con espacio proporcional */
+    align-items: center;
+    /* Centra verticalmente */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en varias líneas */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna */
+    justify-content: flex-end;
+    /* Alinea los elementos al final */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    width: 185px;
+    height: 174px;
+    background: var(--cor-de-first-section);
+}
+
+.skills__img {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+.skills__name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    margin-top: auto;
+    /* Mueve el nombre hacia la parte inferior */
+    margin-bottom: 15px;
+    padding: 7px;
+    background: var(--cor-de-first-section)
+
+}

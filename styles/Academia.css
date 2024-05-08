@@ -1,0 +1,106 @@
+/* *Sección Formación Académica */
+.academic {
+    background: var(--cor-de-second-section);
+    /* display: flex; */
+    justify-content: center; 
+    /* Centra verticalmente en el viewport */
+    align-items: center;
+    /* Centra horizontalmente */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    margin-top: 4em;
+    
+}
+
+.academic__container {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna */
+    justify-content: center;
+    /* Centra verticalmente en el viewport */
+    align-items: center;
+    /* Centra horizontalmente */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    height: 540px;
+    /* Usar altura completa del viewport */
+    margin-bottom: 75px;
+}
+
+.academic__title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    max-width: 87%;
+}
+
+.academic__courses__box {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna */
+    justify-content: center;
+    /* Alinea los elementos al final */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    width: 368px;
+    background: var(--cor-de-first-section);
+    height: 280px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Distribuye los elementos uniformemente */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    width: 100%;
+    padding: 0;
+}
+
+.academic__courses__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    width: 100%;
+    height: 135px;
+    margin-top: 155px;
+    margin-bottom: 75px;
+}
+
+.academic__courses__item__img {
+    width: 192px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente la imagen */
+    align-items: flex-end;
+    /* Centra verticalmente la imagen */
+}
+
+.academic__courses__item__title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-bottom: 8px;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    /* Establece margen a cero para eliminar cualquier espacio adicional */
+    margin-left: 48px;
+    margin-bottom: 25px;
+}

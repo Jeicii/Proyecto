@@ -1,0 +1,81 @@
+/* *Sección Título */
+.title {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente en el viewport */
+    align-items: center;
+    /* Centra verticalmente en el viewport */
+    width: 100%;
+    /* Ocupa todo el ancho disponible del viewport */
+}
+
+.title__div {
+    width: 100%;
+    /* Ancho máximo permitido */
+    max-width: 88%;
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cor-de-first-section);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title__profile {
+    order: 2;
+    /* Cambia el orden del elemento */
+    width: 368px;
+    /* Ancho de la imagen del perfil */
+    height: 368px;
+    /* Altura automática manteniendo la proporción */
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.title__container {
+    order: 1;
+    /* Cambia el orden del elemento */
+    flex: 1;
+    /* El contenido ocupará el espacio restante */
+    background: var(--cor-de-first-section);
+}
+
+.title__bio {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.title__subsection {
+    font-size: 20px;
+    margin-bottom: 16px;
+    /* Margen inferior para separación */
+    font-weight: normal;
+    hyphens: auto;
+    line-height: 1.2em;
+    margin: 20px;
+    padding: 8px;
+}
+
+.title__network {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+.title__network__item a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+    /* Color del texto */
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: medium;
+    align-content: flex-end;
+}
+

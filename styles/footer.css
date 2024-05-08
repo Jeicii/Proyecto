@@ -1,0 +1,20 @@
+/* *Sección Footer */
+.footer {
+    height: 102px;
+    font-size: 16px;
+    font-weight: medium;
+    text-align: center;
+    background: var(--cor-de-first-section);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: var(--cor-de-texto);
+}
+
+.footer__rodape{
+    padding: 3em 0;
+    background: #9E9593;
+    width: 100%;
+    line-height: 1.5;
+}

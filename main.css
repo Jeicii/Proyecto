@@ -1,0 +1,50 @@
+@import url("styles/reset.css");
+@import url("styles/menu.css");
+@import url("styles/Title.css");
+@import url("styles/about.css");
+@import url("styles/Skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/Academia.css");
+@import url("styles/experience.css");
+@import url("styles/Contacto.css");
+@import url("styles/footer.css");
+@import url("styles/mobile.css");
+
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-first-section: #FFFFFF;
+    --cor-de-second-section: #EAF2FD;
+    --cor-de-booton: #2A7AE4;
+    --cor-de-border-booton: #2A7AE4;
+    --cor-de-texto: #000000;
+    --cor-de-second-texto: #FFFFFF;
+    --cor-de-third-texto: #2A7AE4;
+    --cor-de-link: #000;
+    --cor-de-hover-menu: #ddd;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    line-height: 1;
+    font-family: Verdana;
+    color: #464646;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

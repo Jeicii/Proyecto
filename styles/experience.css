@@ -1,0 +1,105 @@
+/* *Sección Experiencia Profesional */
+.experience {
+    display: flex;
+    flex-direction: column;
+    /* Cambia la disposición a columna */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    width: 100%;
+    /* Ocupa todo el ancho disponible del viewport */
+    
+}
+
+.container {
+    width: 100%;
+    /* Ocupa todo el ancho disponible del viewport */
+    max-width: 87%;
+    /* Ancho máximo permitido */
+}
+
+.experience__section__title {
+    text-align: center;
+    /* Centra el título */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* Espaciado inferior */
+    
+}
+
+.experience__box {
+    display: flex;
+    flex-direction: row;
+    /* Cambia la disposición a fila */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    margin-bottom: 30px;
+}
+
+.experience__img {
+    width: 752px;
+    height: 406px;
+    margin: 0 30px 0 0;
+    /* Margen derecho para separación */
+}
+
+.experience__info-container {
+    flex: 1;
+    /* El contenido ocupará el espacio restante */
+    width: 368px;
+    height: 112px;
+}
+
+.experience__title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.experience__text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 4;
+}
+
+.experience__description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Alinear los elementos a la izquierda */
+    width: 100%;
+}
+
+/* Estilos para los botones (repositorio y demo) */
+.experience__repo,
+.experience__demo {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.experiencia__botao--repo,
+.experience__botao--demo,
+button {
+    width: 120px;
+    height: 51px;
+    border: 1px solid var(--cor-de-border-booton);
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.experiencia__botao--repo {
+    color: var(--cor-de-third-texto);
+}
+
+.experiencia__botao--repo:hover,
+.experience__botao--demo:hover {
+    background: var(--cor-de-first-section);
+    /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    color: var(--cor-de-texto);
+    border: 1px solid var(--cor-de-border-booton);
+}
+
+
+
